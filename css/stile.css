@@ -1,0 +1,260 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+:root {
+    --title-color: #000000;
+    --text-color: #4B4B4B;
+    --body-color: #F5F5F5;
+    --brand-color: #FFFFFF;
+    --fiarst-color: #DCE5E2;
+    --card-color: #F8F9FA;
+}
+body {
+    outline: 1px solid blue;
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    background-color: var(--body-color);
+}
+.container {
+    outline: 1px solid blue;
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 73px;
+    padding-right: 73px;
+}
+.section {
+    width: 1294px;
+    padding: 0;
+    margin: auto;
+}
+.head {
+    align-items: center;
+    display: flex;
+    background-color: var(--brand-color);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.head a {
+    font-size: 14px;
+    line-height: 1.2;
+    text-decoration: none;    
+    text-transform: uppercase;
+    
+    color: var(--title-color);
+}
+.head li {
+    list-style: none;
+}
+
+.nav-solutions {
+    display: flex;
+    padding: 0;
+    margin-right: 35px;
+}
+
+.nav {
+    width: 1014px;
+    display: inline-flex;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    justify-content: center;
+}
+.nav-all {
+    margin-right: 33px;
+}
+.nav-about {
+    margin-right: 44px;
+}
+.order {
+    display: flex;
+    width: 110px;
+    margin: 0;
+    padding: 8px 29px 8px 16px;
+    justify-content: space-between;
+    line-height: 0;
+
+}
+.order-icon {
+    width: 24px;
+    height: 24px;
+}
+.order >li {
+    margin: 0;
+    padding: 0;
+}
+.hero {
+    display: flex;
+    align-items: center;
+    height: 550px;
+    background-color: var(--fiarst-color);
+    border-radius: 32px;
+    margin-top: 28px;
+    padding-left: 19px;
+    padding-right: 19px;
+}
+.hero-vector {
+    width: 12px;
+    height: 24px;
+}
+.hero-title {
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 1.2;
+    margin: 0;
+    
+    
+    color: var(--title-color);
+}
+.hero-text {
+    font-size: 16px;
+    line-height: 1.2;
+    margin-top: 19px;
+    margin-bottom: 0;
+    
+    
+    color: var(--title-color);
+}
+.hero-button {
+    display: block;
+    width: 170px;
+    height: 50px;
+    padding: 14px 53px;
+    border: 1px solid var(--title-color);
+    border-radius: 200px;
+    font-size: 18px;
+    line-height: 1.2;
+    text-decoration: none;
+    margin-top: 30px;
+        
+    text-transform: capitalize;
+    
+    color: var(--title-color);
+}
+.hero-card {
+    margin-left: 25px;
+    
+}
+.presentation {
+    margin-top: 28px;
+    padding: 47px 0px 6px;
+}
+.presentation-title {
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 1.25;
+    
+    text-align: center;
+    margin: 0;
+    
+    color: var(--title-color)
+}
+.presentation-text {
+    width: 628px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 9px;
+    margin-bottom: 0;
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.2;
+    
+    text-align: center;
+    
+    color: var(--title-color);
+}
+.presentation-flex-left {
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+}
+.presentation-flex {
+    margin-top: 55px;
+    display: flex;
+    gap: 16px;
+}
+.presentation-card {
+    list-style: none;
+    background: var(--brand-color);
+    border-radius: 3.2px;
+    margin: 0;
+    padding: 0;
+}
+.laptop,
+.watch {
+    padding-left: 42px;
+    padding-right: 42px;
+    width: 639px;
+    filter: drop-shadow(0px 4px 35px rgba(0, 0, 0, 0.25));
+}
+.watch {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.gadjet-laptop,
+.gadjet-watch,
+.gadjet-phones,
+.gadjet-tablet {
+    font-size: 15px;
+    line-height: 1.28;
+    
+    
+    
+    color: var(--title-color);
+}
+.gadjet-text-laptop,
+.gadjet-text-watch,
+.gadjet-text-phones,
+.gadjet-text-tablet {
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 1.2;    
+        
+    color: var(--title-color);
+}
+.gadjet-text-laptop,
+.gadjet-laptop,
+.gadjet-text-watch,
+.gadjet-watch {
+    text-align: right;
+}
+.gadjet-phones,
+.gadjet-text-phones,
+.gadjet-tablet,
+.gadjet-text-tablet {
+    text-align: center;
+}
+.gadjet-phones {
+    margin-top: 41px;
+}
+.gadjet-text-tablet {
+    margin-bottom: 42px;
+}
+.phones {
+    padding-top: 144px;
+    padding-bottom: 144px;
+}
+.tablet {
+    padding-top: 114px;
+    padding-bottom: 115px;
+}
+.phones,
+.tablet {
+    filter: drop-shadow(0px 4px 35px rgba(0, 0, 0, 0.25));
+}
