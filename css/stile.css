@@ -12,7 +12,7 @@
     --card-color: #F8F9FA;
 }
 body {
-    outline: 1px solid blue;
+    /* outline: 1px solid blue; */
     width: 1440px;
     margin-left: auto;
     margin-right: auto;
@@ -23,7 +23,7 @@ body {
     background-color: var(--body-color);
 }
 .container {
-    outline: 1px solid blue;
+    /* outline: 1px solid blue; */
     width: 1440px;
     margin-left: auto;
     margin-right: auto;
@@ -244,7 +244,7 @@ body {
     margin-left: auto;
 }
 .shop-block {
-    outline: 1px solid red;
+    
     list-style: none;
     display: flex;
     justify-content: space-between;
@@ -253,7 +253,7 @@ body {
     padding-left: 0;
 }
 .shop-block >li {
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
 }
 .shop-list {
     width: 303px;
@@ -495,5 +495,37 @@ body {
     
     font-size: 14px;
     line-height: 1.2;
+}
+.reminder {
+    padding-top: 47px;
+    padding-bottom: 43px;
+    background-color: var(--fiarst-color);
+    border-radius: 16px;
+    margin-top: 68px;
+}
+.reminder-title {
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 1.25;
+    margin: 0;
+    
+    text-align: center;
+}
+.reminder-text {
+    font-size: 16px;
+    line-height: 1.2;
+    margin-top: 9px;
+    margin-bottom: 0;
+    
+    text-align: center;
+   
+}
+.reminder-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 14px;
 }
 
