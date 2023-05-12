@@ -19,6 +19,7 @@ body {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
+    color: var(--title-color);
     background-color: var(--body-color);
 }
 .container {
@@ -45,20 +46,16 @@ body {
     font-size: 14px;
     line-height: 1.2;
     text-decoration: none;    
-    text-transform: uppercase;
-    
-    color: var(--title-color);
+    text-transform: uppercase;    
 }
 .head li {
     list-style: none;
 }
-
 .nav-solutions {
     display: flex;
     padding: 0;
     margin-right: 35px;
 }
-
 .nav {
     width: 1014px;
     display: inline-flex;
@@ -80,7 +77,6 @@ body {
     padding: 8px 29px 8px 16px;
     justify-content: space-between;
     line-height: 0;
-
 }
 .order-icon {
     width: 24px;
@@ -110,25 +106,20 @@ body {
     font-weight: 400;
     font-size: 58px;
     line-height: 1.2;
-    margin: 0;
-    
-    
-    color: var(--title-color);
+    margin: 0;    
 }
 .hero-text {
     font-size: 16px;
     line-height: 1.2;
     margin-top: 19px;
-    margin-bottom: 0;
-    
-    
-    color: var(--title-color);
+    margin-bottom: 0;   
 }
 .hero-button {
     display: block;
     width: 170px;
     height: 50px;
     padding: 14px 53px;
+    color: var(--title-color);
     border: 1px solid var(--title-color);
     border-radius: 200px;
     font-size: 18px;
@@ -137,12 +128,9 @@ body {
     margin-top: 30px;
         
     text-transform: capitalize;
-    
-    color: var(--title-color);
 }
 .hero-card {
-    margin-left: 25px;
-    
+    margin-left: 25px;    
 }
 .presentation {
     margin-top: 28px;
@@ -156,9 +144,7 @@ body {
     line-height: 1.25;
     
     text-align: center;
-    margin: 0;
-    
-    color: var(--title-color)
+    margin: 0;    
 }
 .presentation-text {
     width: 628px;
@@ -172,9 +158,7 @@ body {
     font-size: 14px;
     line-height: 1.2;
     
-    text-align: center;
-    
-    color: var(--title-color);
+    text-align: center;    
 }
 .presentation-flex-left {
     display: flex;
@@ -210,11 +194,7 @@ body {
 .gadjet-phones,
 .gadjet-tablet {
     font-size: 15px;
-    line-height: 1.28;
-    
-    
-    
-    color: var(--title-color);
+    line-height: 1.28;    
 }
 .gadjet-text-laptop,
 .gadjet-text-watch,
@@ -224,9 +204,7 @@ body {
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
-    line-height: 1.2;    
-        
-    color: var(--title-color);
+    line-height: 1.2;   
 }
 .gadjet-text-laptop,
 .gadjet-laptop,
@@ -261,17 +239,32 @@ body {
 .shop {
     outline: 1px solid reed;
     width: 1350px;
-    padding-top: 72px;
+    padding: 72px 28px 26px 28px;
     margin-right: auto;
     margin-left: auto;
 }
-.shop-list {
+.shop-block {
+    outline: 1px solid red;
     list-style: none;
     display: flex;
-    gap: 28px;
+    justify-content: space-between;
     margin-top: 31px;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+.shop-block >li {
+    outline: 1px solid red;
+}
+.shop-list {
+    width: 303px;
+    height: 396px;
     padding-top: 28px;
-    padding-right: 27px;
+    padding-bottom: 1px;
+}
+.shop-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 .shop-title {
     font-family: 'Readex Pro';
@@ -279,41 +272,228 @@ body {
     font-weight: 400;
     font-size: 42px;
     line-height: 1.25;
+    margin: 0;
     
     text-align: center;
-    
-    color: var(--title-color);
-
 }
 .shop-text {
     font-family: 'Readex Pro';
     font-style: normal;
     font-weight: 400;
     font-size: 13px;
-    line-height: 1.29;    
+    line-height: 1.29;     
     
-    color: var(--title-color);
     text-align: center;
     margin-top: 9px;
+    margin-bottom: 0;
 }
 .shop-gadjet {
     font-family: 'Readex Pro';
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
-    line-height: 1.25;    
-    
-    color: var(--title-color);
+    line-height: 1.25;
+    margin-top: 37px;
+    margin-bottom: 0;    
 }
 .shop-description {
     font-size: 14px;
-    line-height: 1.2; 
+    line-height: 1.2;
+    margin-top: 9px;
+    margin-bottom: 0; 
     
     color: var(--text-color);
 }
 .shop-price {
+    display: block;
     font-size: 18px;
-    line-height: 1,2;  
+    line-height: 1.2;
+    margin-top: 8px;
+    margin-bottom: 1px;    
+}
+.macbook {
+    margin-top: 25px;
+}
+.best {
+    padding-top: 47px;
+    padding-bottom: 28px;
+    background-color: var(--brand-color);
+}
+.best-title {
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 1.25;    
+    text-align: center;
+    margin: 0;    
+}
+.best-text {
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 1.29;
+    text-align: center;
+    margin-top: 9px;
+    margin-bottom: 0;    
+}
+.best-block {
+    list-style: none;
+    text-align: center;
+    display: flex;
+    gap: 28px;
+    margin-top: 56px;
+    margin-bottom: 0px;
+    padding: 0;
+}
+.best-list {
+    width: 413px;
+    padding-top: 41px;
+    background-color: var(--card-color);
+}
+.best-list-text {
+    margin: 0;
+    text-align: center;
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 1.29;     
+}
+.best-list-title {
+    margin: 0;
+    text-align: center;
+    font-style: normal;
+    font-family: 'Readex Pro';
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 1.25;    
+}
+.best-img {
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+.best-button {
+    display: block;
+    width: 190px;
+    height: 50px;
+    padding: 14px 53px;
+    color: var(--title-color);
+    border: 1px solid var(--title-color);
+    border-radius: 200px;
+    font-size: 18px;
+    line-height: 1.2;
+    text-decoration: none;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+        
+    text-transform: capitalize;
+}
+.article {
+    padding: 47px 28px 24px;
+    background-color: var(--body-color);
+}
+.article-title {
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 1.25;
     
+    text-align: center;
+    margin: 0;    
+}
+.article-text {
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 1.29;
+    
+    text-align: center;
+    margin-top: 9px;
+}
+.article-block {
+    display: flex;
+    margin-top: 56px;
+    gap: 35px;
+}
+.article-list {
+    padding-top: 14px;
+}
+.article-list-text {
+    font-size: 24px;
+    line-height: 1.25;
+
+    margin-bottom: 28px;
+}
+.article-see {    
+    margin-top: 73px;
+    display: flex;
+    justify-content: center;
+}
+.article-see-text {
+    font-size: 24px;
+    line-height: 1.2;
+    text-decoration: none;
+    margin: 0;
+    
+    text-transform: capitalize;
     color: var(--title-color);
 }
+.search {
+    padding: 51px 252px 19px;
+    background-color: var(--brand-color);
+}
+.search-title {
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 1.25;
+    
+    text-align: center;
+}
+.search-button {
+    width: 650px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    background: var(--card-color);
+    border: 1px solid #C5C5C5;
+    border-radius: 100px;
+    padding-left: 17px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    margin: 24px auto 0px;
+}
+.search-button-text {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.2;
+    
+    text-align: center;
+}
+.search-blockbutton {
+    width: 660px;
+    display: flex;
+    margin-top: 18px;
+    gap: 7px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 7px;
+}
+.search-blockbutton >button {
+    background: var(--brand-color);
+    border: 1px solid #C5C5C5;
+    border-radius: 200px;
+    padding: 12px 22px 13px;
+    
+    font-size: 14px;
+    line-height: 1.2;
+}
+
