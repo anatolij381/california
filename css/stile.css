@@ -102,8 +102,6 @@ body {
 }
 .hero-title {
     font-family: 'Readex Pro';
-    font-style: normal;
-    font-weight: 400;
     font-size: 58px;
     line-height: 1.2;
     margin: 0;    
@@ -138,8 +136,6 @@ body {
 }
 .presentation-title {
     font-family: 'Readex Pro';
-    font-style: normal;
-    font-weight: 400;
     font-size: 42px;
     line-height: 1.25;
     
@@ -153,8 +149,6 @@ body {
     margin-top: 9px;
     margin-bottom: 0;
     font-family: 'Readex Pro';
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.2;
     
@@ -201,8 +195,6 @@ body {
 .gadjet-text-phones,
 .gadjet-text-tablet {
     font-family: 'Readex Pro';
-    font-style: normal;
-    font-weight: 400;
     font-size: 32px;
     line-height: 1.2;   
 }
@@ -252,9 +244,6 @@ body {
     margin-bottom: 0;
     padding-left: 0;
 }
-.shop-block >li {
-    /* outline: 1px solid red; */
-}
 .shop-list {
     width: 303px;
     height: 396px;
@@ -268,8 +257,6 @@ body {
 }
 .shop-title {
     font-family: 'Readex Pro';
-    font-style: normal;
-    font-weight: 400;
     font-size: 42px;
     line-height: 1.25;
     margin: 0;
@@ -278,8 +265,6 @@ body {
 }
 .shop-text {
     font-family: 'Readex Pro';
-    font-style: normal;
-    font-weight: 400;
     font-size: 13px;
     line-height: 1.29;     
     
@@ -289,8 +274,6 @@ body {
 }
 .shop-gadjet {
     font-family: 'Readex Pro';
-    font-style: normal;
-    font-weight: 400;
     font-size: 22px;
     line-height: 1.25;
     margin-top: 37px;
@@ -330,8 +313,6 @@ body {
 }
 .best-text {
     font-family: 'Readex Pro';
-    font-style: normal;
-    font-weight: 400;
     font-size: 13px;
     line-height: 1.29;
     text-align: center;
@@ -356,17 +337,13 @@ body {
     margin: 0;
     text-align: center;
     font-family: 'Readex Pro';
-    font-style: normal;
-    font-weight: 400;
     font-size: 13px;
     line-height: 1.29;     
 }
 .best-list-title {
     margin: 0;
     text-align: center;
-    font-style: normal;
     font-family: 'Readex Pro';
-    font-weight: 400;
     font-size: 28px;
     line-height: 1.25;    
 }
@@ -398,8 +375,6 @@ body {
 }
 .article-title {
     font-family: 'Readex Pro';
-    font-style: normal;
-    font-weight: 400;
     font-size: 42px;
     line-height: 1.25;
     
@@ -408,8 +383,6 @@ body {
 }
 .article-text {
     font-family: 'Readex Pro';
-    font-style: normal;
-    font-weight: 400;
     font-size: 13px;
     line-height: 1.29;
     
@@ -450,10 +423,9 @@ body {
 }
 .search-title {
     font-family: 'Readex Pro';
-    font-style: normal;
-    font-weight: 400;
     font-size: 42px;
     line-height: 1.25;
+    margin: 0;
     
     text-align: center;
 }
@@ -470,12 +442,9 @@ body {
     padding-bottom: 18px;
     margin: 24px auto 0px;
 }
-.search-button-text {
-    margin: 0;
+.search-button {
     font-size: 14px;
     line-height: 1.2;
-    
-    text-align: center;
 }
 .search-blockbutton {
     width: 660px;
@@ -506,8 +475,6 @@ body {
 }
 .reminder-title {
     font-family: 'Readex Pro';
-    font-style: normal;
-    font-weight: 400;
     font-size: 42px;
     line-height: 1.25;
     margin: 0;
