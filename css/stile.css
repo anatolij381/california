@@ -20,7 +20,7 @@ body {
     font-style: normal;
     font-weight: 400;
     color: var(--title-color);
-    background-color: var(--body-color);
+    background-color: var(--brand-color);
 }
 .container {
     /* outline: 1px solid blue; */
@@ -392,8 +392,9 @@ body {
     text-transform: capitalize;
 }
 .article {
+    width: 1350px;
     padding: 47px 28px 24px;
-    background-color: var(--body-color);
+    background-color: var(--brand-color);
 }
 .article-title {
     font-family: 'Readex Pro';
@@ -528,4 +529,106 @@ body {
     margin-right: auto;
     margin-top: 14px;
 }
+.reminder-button {
+    display: flex;
+    margin-top: 14px;
+    justify-content: center;
+}
+.reminder-button-left {
+    width: 285px;
+    padding-left: 32px;
+    padding-top: 16px;
+    padding-bottom: 17px;
+    font-size: 14px;
+    line-height: 1.2;
 
+    text-align: left;
+    background: var(--fiarst-color);
+    border: 1px solid var(--title-color);
+    border-radius: 54px 0px 0px 54px;
+    
+}
+.reminder-button-right {
+    width: 115px;
+    padding-right: 33px;
+    padding-top: 16px;
+    padding-bottom: 17px;
+    font-size: 14px;
+    line-height: 1.2;
+    color: var(--brand-color);
+
+    background: var(--title-color);
+    border-radius: 0px 200px 200px 0px;
+    text-align: right;
+
+}
+.foot {
+    padding-top: 45px;
+    background-color: var(--card-color);
+}
+.foot-flex {
+    display: flex;
+    gap: 28px;
+}
+.foot-logo {
+    display: block;
+    width: 394px;
+    padding-top: 10px;
+}
+.foot-text {
+    width: 304px;
+    font-size: 16px;
+    line-height: 1.2;
+    margin-top: 18px;    
+}
+ul {
+    list-style: none;
+}
+.foot-cardlist {
+    width: 197px;
+
+}
+.foot-block {
+    font-family: 'Readex Pro';
+    font-size: 22px;
+    line-height: 1.25;
+    margin-top: 0;
+    margin-bottom: 19px;
+}
+.foot-list {
+    font-size: 17px;
+    line-height: 1.27;
+    margin-top: 14px;
+    margin-bottom: 0;
+    
+}
+.line {
+    width: 1350px;
+    height: 1px;
+    background-color: var(--fiarst-color);
+    margin: 79px auto 0px;
+}
+.made {
+    width: 1350px;
+    padding: 52px 28px 4px;
+    display: flex;
+    justify-content: space-between;
+}
+.made-block {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+.made-title {
+    font-family: 'Readex Pro';
+    font-size: 18px;
+    line-height: 1.2;
+}
+.made-text {
+    font-size: 18px;
+    line-height: 1.2;
+}
+.made-img {
+    width: 22px;
+    height: 21px;
+}
