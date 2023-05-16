@@ -249,6 +249,7 @@ body {
     height: 396px;
     padding-top: 28px;
     padding-bottom: 1px;
+    position: relative;
 }
 .shop-img {
     display: block;
@@ -291,11 +292,11 @@ body {
     display: block;
     font-size: 18px;
     line-height: 1.2;
-    margin-top: 8px;
-    margin-bottom: 1px;    
-}
-.macbook {
-    margin-top: 25px;
+    
+    margin-bottom: 1px; 
+    position: absolute;
+    left: 0;
+    bottom: 0;   
 }
 .best {
     padding-top: 47px;
